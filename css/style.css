@@ -63,6 +63,13 @@ img{
   height: 110px;
   object-fit: cover;
 }
+.zampa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: yellow;
+  font-size: 30px;
+}
 .nome{
   position: absolute;
   left: 0;
