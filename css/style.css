@@ -8,7 +8,14 @@
   max-width: 1300px;
   margin:0 auto;
 }
+.flex-wrap{
+flex-wrap: wrap;
+}
+.space-evenly{
+  justify-content: space-evenly;
+}
 body{
+  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 .flex{
@@ -20,13 +27,13 @@ background-color: black;
 /* header */
 header{
 height: 60px;
-color: aliceblue;
 }
 .text{
   padding: 10px 5px 0 0;
   justify-content: flex-end;
 }
 .text span{
+  font-size: 12px;
   background-color: rgb(74, 74, 74);
   padding: 5px;
   margin: 3px;
@@ -46,9 +53,23 @@ height: calc(100vh - 130px);
   height:100% ;
   overflow: auto;
 }
-p{
-  color: azure;
+.foto{
+  position: relative;
 }
+img{
+  width: 180px;
+  height: 110px;
+  object-fit: cover;
+}
+.nome{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7px;
+  font-size: 14px;
+}
+
 
 /* /main */
 
@@ -59,6 +80,7 @@ footer{
   height: 70px;
   background-color: #222222;
 }
+
 
 /* /footer */
 
