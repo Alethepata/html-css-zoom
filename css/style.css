@@ -32,8 +32,10 @@ height: 60px;
   padding: 10px 5px 0 0;
   justify-content: flex-end;
 }
-.text span{
+.text span,.text-row,.chevron{
   font-size: 12px;
+}
+.text span{
   background-color: rgb(74, 74, 74);
   padding: 5px;
   margin: 3px;
@@ -79,6 +81,31 @@ img{
 footer{
   height: 70px;
   background-color: #222222;
+  justify-content: space-between;
+}
+.first-row,.second-row,.third-row{
+  padding: 10px;
+}
+
+.icona{
+  display: block;
+  font-size: 20px;
+}
+footer span{
+  text-align: center;  
+  margin-right: 15px;
+}
+.share{
+  color: lawngreen;
+}
+.third-row{
+  justify-content: center;
+  align-items: center;
+  background-color: #4a4a4a;
+  width: 140px;
+}
+.third-row{
+  color: red;
 }
 
 
